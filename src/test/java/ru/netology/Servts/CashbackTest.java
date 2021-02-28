@@ -5,13 +5,13 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CashbackTest {
-    @org.testng.annotations.Test
+    @org.junit.jupiter.api.Test
     void serviceBonus() {
         Cashback service = new Cashback();
         int amount = 1000;
         int actual = service.remain(amount);
         int expected = 0;
-        assertEquals(actual, expected);
+        assertEquals(expected,actual);
     }
     @Test
     void upToBuyAt564() {
@@ -19,7 +19,7 @@ class CashbackTest {
         int amount = 436;
         int actual = service.remain(amount);
         int expected = 564;
-        assertEquals(actual, expected);
+        assertEquals(expected,actual);
     }
     @Test
     void upToBuyAt200() {
@@ -27,7 +27,7 @@ class CashbackTest {
         int amount = 800;
         int actual = service.remain(amount);
         int expected = 200;
-        assertEquals(actual, expected);
+        assertEquals(expected,actual);
     }
     @Test
     void upToBuyAt900() {
@@ -35,7 +35,7 @@ class CashbackTest {
         int amount = 100;
         int actual = service.remain(amount);
         int expected = 900;
-        assertEquals(actual, expected);
+        assertEquals(expected,actual);
     }
     @Test
     void toBuy1200() {
@@ -43,7 +43,7 @@ class CashbackTest {
         int amount = 1200;
         int actual = service.remain(amount);
         int expected = 800;
-        assertEquals(actual, expected);
+        assertEquals(expected,actual);
     }
 
 }
