@@ -3,7 +3,7 @@ package ru.netology.Servts;
 import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
-class CashbackTest {
+public class CashbackTest {
     @org.testng.annotations.Test
     void serviceBonus() {
         Cashback service = new Cashback();
