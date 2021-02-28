@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CashbackTest {
-    @Test
+    @org.testng.annotations.Test
     void serviceBonus() {
         Cashback service = new Cashback();
         int amount = 1000;
