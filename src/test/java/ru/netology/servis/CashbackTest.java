@@ -1,4 +1,4 @@
-package ru.netology.Servts;
+package ru.netology.servis;
 
 import org.junit.Test;
 
