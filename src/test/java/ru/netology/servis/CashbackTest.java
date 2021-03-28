@@ -1,5 +1,6 @@
 package ru.netology.servis;
 
+ testng
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
@@ -9,6 +10,14 @@ public class CashbackTest {
     public Cashback cashback = new Cashback();
 
 
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class CashbackTest {
+    @org.junit.jupiter.api.Test
+ master
     void serviceBonus() {
         Cashback service = new Cashback();
         int amount = 1000;
