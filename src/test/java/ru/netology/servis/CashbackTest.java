@@ -4,13 +4,14 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
- testng
-public class CashbackTest {
-    @org.testng.annotations.Test
 
-class CashbackTest {
-    @org.junit.jupiter.api.Test
- master
+public class CashbackTest {
+    public Cashback cashback = new Cashback();
+
+
+
+
+
     void serviceBonus() {
         Cashback service = new Cashback();
         int amount = 1000;
@@ -19,11 +20,10 @@ class CashbackTest {
         assertEquals(expected, actual);
     }
 
- testng
-    @org.testng.annotations.Test
+
 
     @Test
- master
+
     void upToBuyAt564() {
         Cashback service = new Cashback();
         int amount = 436;
@@ -32,11 +32,9 @@ class CashbackTest {
         assertEquals(expected, actual);
     }
 
- testng
-
-
- master
     @Test
+
+
     void upToBuyAt200() {
         Cashback service = new Cashback();
         int amount = 800;
