@@ -9,9 +9,6 @@ public class CashbackTest {
     public Cashback cashback = new Cashback();
 
 
-
-
-
     void serviceBonus() {
         Cashback service = new Cashback();
         int amount = 1000;
@@ -20,10 +17,7 @@ public class CashbackTest {
         assertEquals(expected, actual);
     }
 
-
-
     @Test
-
     void upToBuyAt564() {
         Cashback service = new Cashback();
         int amount = 436;
@@ -33,8 +27,6 @@ public class CashbackTest {
     }
 
     @Test
-
-
     void upToBuyAt200() {
         Cashback service = new Cashback();
         int amount = 800;
