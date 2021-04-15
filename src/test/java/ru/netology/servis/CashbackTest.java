@@ -5,6 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CashbackTest {
+
     @Test
     public void serviceBonus() {
         Cashback service = new Cashback();
