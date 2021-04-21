@@ -8,9 +8,9 @@ import static org.junit.Assert.*;
 
 public class CashbackTest {
 
-class CashbackTest {
+
     @org.junit.jupiter.api.Test
-    void serviceBonus() {
+    void serviceBonus3() {
         Cashback service = new Cashback();
         int amount = 1000;
         int actual = service.remain(amount);
@@ -52,3 +52,4 @@ class CashbackTest {
         Assert.assertEquals(expected, actual);
     }
 }
+
