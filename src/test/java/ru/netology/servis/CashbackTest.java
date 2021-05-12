@@ -48,7 +48,7 @@ public class CashbackTest {
         int actual = service.remain(amount);
         int expected = 1000;
 
-        Assert.assertEquals(expected, actual);
+        Assert.assertEquals(actual,expected);
     }
 }
 
