@@ -8,10 +8,12 @@ version '1.0-SNAPSHOT'
 repositories {
     mavenCentral()
 }
-
 dependencies {
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter', version: '5.7.1'
+
+
+
     // https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-engine
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-engine', version: '5.7.1'
 
@@ -25,6 +27,11 @@ test {
     useTestNG()
 }
 
+
+dependencies {
+    testImplementation 'junit:junit:4.13'
+}
+
 test {
-    useJUnitPlatform()
+    useJUnit()
 }
