@@ -45,9 +45,8 @@ public class CashbackTest {
     public void serviceBonus() {
         Cashback service = new Cashback();
         int amount = 1000;
-
         int actual = service.remain(amount);
-        int expected = 0;
+        int expected = 1000;
 
         Assert.assertEquals(expected, actual);
     }
