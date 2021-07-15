@@ -8,7 +8,6 @@ import static org.junit.Assert.*;
 
 public class CashbackTest {
 
-
     @Test
     public void serviceBonus2() {
         Cashback service = new Cashback();
