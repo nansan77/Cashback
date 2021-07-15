@@ -9,16 +9,6 @@ import static org.junit.Assert.*;
 public class CashbackTest {
 
 
-    @org.junit.jupiter.api.Test
-    void serviceBonus3() {
-        Cashback service = new Cashback();
-        int amount = 1000;
-        int actual = service.remain(amount);
-        int expected = 1000;
-        assertEquals(expected, actual);
-    }
-
-
     @Test
     public void serviceBonus2() {
         Cashback service = new Cashback();
@@ -47,7 +37,7 @@ public class CashbackTest {
         int amount = 1000;
 
         int actual = service.remain(amount);
-        int expected = 1000;
+        int expected = 0;
 
         Assert.assertEquals(expected, actual);
     }
