@@ -5,27 +5,12 @@ plugins {
 group 'ru.netology'
 version '1.0-SNAPSHOT'
 
+sourceCompatibility=11
+
 repositories {
     mavenCentral()
 }
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
-
-}
-dependencies {
-    testImplementation 'org.testng:testng:7.1.0'
-
-}
-
-test {
-    useTestNG()
-}
-
-
-dependencies {
-    implementation 'org.junit.jupiter:junit-jupiter:5.4.2'
-    implementation 'junit:junit:4.12'
     testImplementation 'junit:junit:4.13'
 }
 
